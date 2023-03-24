@@ -7,6 +7,10 @@ android {
     namespace 'com.example.mathgameproject'
     compileSdk 33
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.example.mathgameproject"
         minSdk 24
